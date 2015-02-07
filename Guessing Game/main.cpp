@@ -1,15 +1,27 @@
-//
-//  main.cpp
-//  Guessing Game
-//
-//  Created by Oscar Fuentes on 2/5/15.
-//  Copyright (c) 2015 Oscar Fuentes. All rights reserved.
-//
-
 #include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <time.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+
+{
+    srand(time(0));
+    int guess;
+    int number = rand()%50 + 1 ;
+    int tries;
+    bool goOn = true;
+    char answer;
+    
+    string mystr;
+    
+    cout << "Hey there! Welcome to the guessing game :) What's your name?" << endl;
+    getline (cin, mystr );
+    cout << "Welcome, " >> mystr >> "!" << endl;
+    " You're about to play a guessing game.\n" << endl;
+    cout;
+    "
+    
 }
